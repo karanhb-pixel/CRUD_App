@@ -1,0 +1,139 @@
+.app {
+  height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.book {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  /* border: 2px solid gray; */
+  padding: 10px;
+}
+
+.book img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  background-color: #d4ebff;
+}
+
+/* .button {
+  border: none;
+  cursor: pointer;
+  
+  background-color: white;
+  border: 1px solid gray;
+  width: 80px; 
+  height: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+button {
+  all: unset;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 3px 6px;
+
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.25s;
+}
+
+.delete {
+  color: red;
+}
+
+.update {
+  color: rgb(101, 227, 255);
+}
+
+.add {
+  border: none;
+  cursor: pointer;
+  padding: 10px 6px;
+  background-color: white;
+  border: 1px solid gray;
+  width: 100%;
+  margin-top: 30px;
+  background-color: rgb(255, 176, 162);
+}
+.addButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.formbutton {
+  margin-top: 10px;
+  width: 90%;
+  border: none;
+  background-color: rgb(255, 176, 162);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttonHover:hover {
+  background-color: rgb(255, 184, 97);
+  color: rgb(0, 21, 255);
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
